@@ -7,3 +7,4 @@ const getUser = async () => {
   }
 }
 getUser()
+console.log('DESTRUCTED')
