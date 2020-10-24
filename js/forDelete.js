@@ -1,2 +1,2 @@
-console.log('122')
+console.log('pidarasina')
 array.forEach((element) => {})
