@@ -4,29 +4,207 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>First project</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&family=Nunito:ital,wght@0,700;1,400;1,700&family=Roboto:ital,wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Jix</title>
   </head>
   <body>
-    <h5>Finally i made this ^)</h5>
-    <h6>ifhkfhk</h6>
-    <div class="cont">
-      <span>
-        <h2>dhdjk</h2>
-        fghhhg Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
-        itaque ab officia ducimus illo iure voluptatem placeat dolorum error
-        fuga, atque explicabo enim molestiae beatae, consequatur quaerat
-        provident voluptate cum reiciendis. Est, dolores. Doloremque saepe
-        facilis aperiam! Atque corporis libero distinctio at eius maiores
-        mollitia consequatur voluptate necessitatibus minima veritatis quis odit
-        pariatur laboriosam architecto delectus iure repudiandae corrupti sunt
-        soluta quo, tempore reiciendis nam. Dolor hic possimus, commodi harum
-        consequatur facere excepturi dolore. perferendis quo amet quibusdam
-        natus vitae, dolorem voluptatem minima beatae minus explicabo adipisci
-        at consequuntur qui aspernatur aliquam esse maxime? Sunt corporis ad
-        blanditiis provident tempora?
-      </span>
+    <!-- HEDEAR -->
+    <header class="header">
+      <div class="container">
+        <div class="inner__header">
+          <div class="logo">
+              <svg
+              class="logo1"
+              width="114"
+              height="114"
+              viewBox="0 0 114 114"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M106.929 57L57 7.07107L7.07106 57L27.9085 77.8374C28.6238 77.3731 29.2481 76.8907 29.7814 76.39C30.4324 75.7911 30.9663 75.127 31.3829 74.3978C31.7996 73.6817 32.1056 72.8809 32.3009 71.9955C32.4962 71.097 32.5939 70.0814 32.5939 68.9486V42.5228H38.7853V67.8353C38.7853 69.1895 38.7267 70.4265 38.6095 71.5463C38.4923 72.653 38.297 73.6687 38.0236 74.5931C37.7631 75.5306 37.4051 76.39 36.9493 77.1713C36.5066 77.9525 35.9532 78.6947 35.2892 79.3978C34.6381 80.101 33.8634 80.778 32.965 81.4291C32.6918 81.6299 32.405 81.8314 32.1046 82.0335L57 106.929L87.0026 76.9263L83.4315 73.3553H90.5737L106.929 57ZM60.5355 3.53553L57 0L53.4645 3.53553L3.53553 53.4645L-4.98254e-06 57L3.53553 60.5355L53.4645 110.464L57 114L60.5355 110.464L110.464 60.5355L114 57L110.464 53.4645L60.5355 3.53553ZM53.0392 46.8588C52.4663 46.8588 51.9454 46.7806 51.4767 46.6244C51.021 46.4551 50.6303 46.2338 50.3048 45.9603C49.9793 45.6739 49.7254 45.3483 49.5431 44.9838C49.3738 44.6062 49.2892 44.209 49.2892 43.7924C49.2892 43.3627 49.3738 42.9655 49.5431 42.601C49.7254 42.2233 49.9793 41.8978 50.3048 41.6244C50.6303 41.351 51.021 41.1361 51.4767 40.9799C51.9454 40.8106 52.4663 40.726 53.0392 40.726C53.6251 40.726 54.146 40.8106 54.6017 40.9799C55.0704 41.1361 55.4676 41.351 55.7931 41.6244C56.1186 41.8978 56.366 42.2233 56.5353 42.601C56.7176 42.9655 56.8087 43.3627 56.8087 43.7924C56.8087 44.209 56.7176 44.6062 56.5353 44.9838C56.366 45.3483 56.1186 45.6739 55.7931 45.9603C55.4676 46.2338 55.0704 46.4551 54.6017 46.6244C54.146 46.7806 53.6251 46.8588 53.0392 46.8588ZM55.9298 50.0033V73.0502H50.1486V50.0033H55.9298ZM73.3282 61.5267L63.797 49.9838H71.1798L76.9611 57.015L82.4493 49.9838H89.6564L80.6915 61.5072L90.2228 73.0502H82.84L76.8829 65.8431L71.3556 73.0502H64.1486L73.3282 61.5267Z"
+                fill="#F5D83E"
+              />
+              </svg>
+          </div>
+          <nav>
+            <input id="nav-toggle" type="checkbox">
+            <a class="nav__link" href="#screenHome" id="linkHome">Home</a>
+            <a class="nav__link" href="#screenAbout" id="linkAbout">About</a>
+            <a class="nav__link" href="#screenContact" id="linkContact">Contact</a>
+            <label for="nav-toggle" class="icon-burger">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </label>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- INTRO -->
+    <div id="screenHome" class="intro">
+      <div class="container">
+        <div class="intro__inner">
+          <h1 class="intro__title">Cousre for junior</br> developers</h1>
+         
+        </div>
+        <div class="subtitle">
+          <h3 intro__subtitle>These are IT courses that </br>help smart people change their lives  😉</h3>
+        </div>
+        <div class="btnSignUp">
+          <button data-hover="Hurry Up!"><div>Sign Up</div></button>
+        </div>
+      </div>
     </div>
+    <!-- ABOUT -->
+    <div id="screenAbout" class="about">
+      <div class="container">
+        <div class="about__title">
+          Waht you`ll learn in course
+        </div>
+        <div class="about__learn">
+        <div class="block__js">
+          <h2 class="title_card">JavaScript 💻</h2>
+          <ul>
+            <ol>✔ Configure VScode to work with the course</ol>
+            <ol>✔ Let's start and write the first program</ol>
+            <ol>✔ Basics of data entry</ol>
+            <ol>✔ The If, else, switch case operator is a choice in JS</ol>
+            <ol>✔ Work with forms: input, range, textarea, checkbox </ol>
+            <ol>✔ Cycles in JavaScript </ol>
+            <ol>✔ Functions and everything about them</ol>
+          </ul>
+        </div>
+        <div class="block__html">
+          <h2 class="title_card">HTML/CSS ☝</h2>
+          <ul>
+            <ol>✔ Basic HTML tags</ol>
+            <ol>✔ CSS basics. CSS code</ol>
+            <ol>✔ Proper organization of CSS code</ol>
+            <ol>✔ Positioning of elements. Tabular layout</ol>
+            <ol>✔  Positioning of elements. Position property</ol>
+            <ol>✔ Positioning - practice</ol>
+            <ol>✔ Positioning of elements. Float</ol>
+            <ol>✔ Positioning of elements. Grid Layout</ol>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- CONTACT -->
+    <div id="screenContact" class="contact">
+      <div class="container">
+        <div class="technologies">
+          <h3>Technologies which we use</h3>
+          <div class="tech__images">
+            <div class="images">
+              <img src="./img/html1.png" alt=""><br>
+              
+            </div>
+            <div class="images">
+              <img src="./img/css-logo.png" alt=""><br>
+              
+            </div>
+            <div class="images">
+              <img src="./img/js.png" alt=""><br>
+              
+            </div>
+            <div class="images">
+              <img src="./img/angular.png" alt=""><br>
+             
+            </div>
+            <div class="images">
+              <img src="./img/vue.png" alt=""><br>
+             
+            </div>
+            <div class="images">
+              <img src="./img/webpack.png" alt=""><br>
+             
+            </div>
+          </div>
+          <h3>Contact</h3>
+        </div>
+        <div class="contactForm">
+          
+          <div class="informContact">
+            <h3 class="inner__informTitle">We help  with your choice!</h3>
+            <p class="inner__inform2" >If you`ll want ask us about format or you don`t know what select, leave your number and we callback you</p>
+          </div>
+          <form action="">
+            <div class="formCallback">
+              <div class="input-container input-container1">
+                <label>Name</label>
+                <input class="inputData1" type="text">
+              </div>
+            <div class="nameEmail">
+              <div class="input-container">
+                <label>Phone</label>
+                <input class="inputData2" type="text">
+                
+              </div>
+              <div class="input-container">
+                <label>Email</label>
+                <input class="inputData2" type="text">
+                
+              </div>
+            </div>
+            <button class="btnSubmit">Submit</button>
+          </form>
+          
+          
+        
+            
+          </div>
+        </div>
+      
+        
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="contactInformation">
+          <h3>
+            Phone: +7 (495) 121-41-96
+          </h3>
+          <p>
+            London of the capital of Great Britian, </br>Baker street 42
+          </p>
+          <a target="_blank" href="https://uk-ua.facebook.com">
+            <svg class="svgIcons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48pt" height="48pt" viewBox="0 0 48 48" version="1.1">
+              <g id="surface16452365">
+              <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 24 4 C 12.976562 4 4 12.976562 4 24 C 4 35.023438 12.976562 44 24 44 C 35.023438 44 44 35.023438 44 24 C 44 12.976562 35.023438 4 24 4 Z M 24 8 C 32.859375 8 40 15.140625 40 24 C 40 32.027344 34.128906 38.625 26.4375 39.796875 L 26.4375 28.769531 L 31.09375 28.769531 L 31.824219 24.039062 L 26.4375 24.039062 L 26.4375 21.453125 C 26.4375 19.488281 27.078125 17.742188 28.917969 17.742188 L 31.871094 17.742188 L 31.871094 13.613281 C 31.351562 13.542969 30.253906 13.390625 28.179688 13.390625 C 23.847656 13.390625 21.308594 15.679688 21.308594 20.890625 L 21.308594 24.039062 L 16.855469 24.039062 L 16.855469 28.769531 L 21.308594 28.769531 L 21.308594 39.757812 C 13.742188 38.480469 8 31.941406 8 24 C 8 15.140625 15.140625 8 24 8 Z M 24 8 "/>
+              </g>
+              
+            
+            
+            
+            
+            </svg>
+          </a>
+          
+          <a target="_blank" href="https://web.telegram.org/#/login">
+            <svg class="svgIcons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48pt" height="48pt" viewBox="0 0 48 48" version="1.1">
+              <g id="surface16452032">
+              <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 41.144531 6.023438 C 40.480469 5.953125 39.757812 6.058594 39.03125 6.34375 C 38.132812 6.699219 24.027344 12.628906 10.882812 18.164062 L 6.539062 19.992188 C 4.855469 20.675781 4.007812 21.785156 4.007812 23.277344 C 4.007812 24.324219 4.449219 25.742188 6.5625 26.578125 L 13.894531 29.515625 C 14.527344 31.417969 16 35.832031 16.371094 37.007812 C 16.589844 37.703125 17.148438 39.457031 18.550781 39.867188 C 18.839844 39.964844 19.140625 40.015625 19.445312 40.015625 C 20.332031 40.015625 20.96875 39.601562 21.28125 39.363281 L 25.941406 35.421875 L 31.601562 40.65625 C 31.820312 40.878906 32.972656 42 34.523438 42 C 36.457031 42 37.925781 40.390625 38.230469 38.832031 C 38.394531 37.976562 43.855469 10.574219 43.855469 10.578125 C 44.34375 8.378906 43.464844 7.238281 42.898438 6.753906 C 42.414062 6.339844 41.808594 6.09375 41.144531 6.023438 Z M 39.820312 10.34375 C 39.066406 14.125 34.957031 34.757812 34.332031 37.730469 L 26.058594 30.078125 L 20.445312 34.832031 L 22 28.75 C 22 28.75 32.726562 17.894531 33.371094 17.261719 C 33.890625 16.753906 34 16.578125 34 16.402344 C 34 16.167969 33.878906 16 33.601562 16 C 33.351562 16 33.011719 16.238281 32.832031 16.351562 C 30.546875 17.777344 20.808594 23.324219 16.015625 26.050781 L 9.0625 23.273438 L 12.4375 21.855469 C 21.035156 18.234375 36.347656 11.789062 39.820312 10.34375 Z M 39.820312 10.34375 "/>
+              </g>
+              </svg>
+          </a>
+              
+          <hr>
+          <p>© Kovalski Studio 2020</p>
+        </div>
+       
+       
+      </div>
+      
+      
+    </footer>
 
-    <script src=""></script>
+    <script src="../myfirstproject/js/main.js"></script>
   </body>
 </html>
