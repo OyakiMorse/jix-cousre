@@ -51,7 +51,7 @@ const Form = () => {
 
       const formData = new FormData(item)
 
-      postData('http://localhost:4000/clients', FormData)
+      postData('https://206.81.28.239/clients', FormData)
         .then((res) => {
           console.log(res), (statusMsg.textContent = message.success)
         })
